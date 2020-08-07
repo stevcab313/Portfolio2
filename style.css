@@ -6,12 +6,12 @@ body {
 /* ---General Styling---- */
 
 header {
-  background-color: #000;
+  background-color: #4F5D75;
   margin-bottom: 40px;
 }
 
 header h1 {
-  color: #fff;
+  color: #EF8354;
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -31,7 +31,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #EF8354;
   text-decoration: none;
   margin: 0 20px 0 0;
 }
@@ -48,6 +48,8 @@ img {
 .about-img{
   border-radius: 30px;
 }
+
+
 
 /* ---Group Styling--- */
 
@@ -84,6 +86,7 @@ main .intro {
 /* Margin & Flex Styling */
 .wrapper {
   width: 100%;
+  background-color: #BFC0C0;
 }
 
 .group {
@@ -98,12 +101,12 @@ main .intro {
 
 .item-doubler {
   flex: 2;
-  margin: 20px;
+  margin: 0;
 }
 
-a:link { color: #131112 }
-a:visited { color: #C49991 }
-a:active { color: #403933; }
+a:link { color: #EF8354 }
+a:visited { color: rgb(238, 151, 113)  ;}
+a:active { color: rgb(233, 87, 24); }
 
 /* ---Desktop View--- */
 
@@ -124,7 +127,7 @@ a:active { color: #403933; }
  
 
   .intro-img {
-    width: 50%;
+    width: 80%;
   }
 
   .marg-about{
@@ -132,12 +135,13 @@ a:active { color: #403933; }
   }
 
   .group {
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
   } 
 
-  about-img{
+  .about-img{
     width: 100%;
-    margin-right:30px;
+    margin:30px 100px 0 0;
   }
 
   .small-text {
@@ -145,16 +149,14 @@ a:active { color: #403933; }
   }
 
   a:hover {
-    color: #279AF1
+    color: rgb(241, 87, 21)
   }
   
 }
 /*ABOUT ARTICLE*/
-#about {
-  background-color: #C49991;
+.wrap-marg {
+  background-color: #EF8354;
 }
-
-
 
 a {
   text-decoration:none;
@@ -172,3 +174,4 @@ form textarea {
 form textarea {
   height: 200px;
 }
+

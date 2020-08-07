@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Stephen Cabanas' Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   
@@ -16,29 +16,31 @@
       <div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-          
+        </nav>
       </div>
     </header>
 
     <main>
       <div class="wrapper">
-        <div class="group">
-        
-          <img src="Images/profile.jpeg" alt="Stephen Cabanas | profile image" class="intro-img">
-         <div class="item">
-          <h3 class="intro-header">Hi, I'm Stephen Cabanas!
-            
-            <p class="intro">I am currently living in Eagle, Colorado.
-            <p class="intro">I will be posting on here on more information and projects I have done that will demonstrate my software developing acumen and collaboration efforts with other's.</p>
+        <article id="home">
+          <div class="group">
+            <div class="item">
+            <img src="Images/profile.jpeg" alt="Stephen Cabanas | profile image" class="intro-img">
+            </div>
+            <div class="item">
+              <h2>Hi, I'm Stephen Cabanas!</h2>
+              <p>I am currently living in Eagle, Colorado.</p>
+              <p>I will be posting on here on more information and projects I have done that will demonstrate my software developing acumen and collaboration efforts with other's.</p>
+            </div>
           </div>
-        </div>
         </article>
       </div>
+    
 
       <div class="wrapper wrap-marg">
         <article id="about">
@@ -46,21 +48,30 @@
         <div class="group">
           <div class="item marg-about">
             <p class="small-text">
-              After graduating from college with a Kinesiology degree and a minor in Health, I stayed in the restaurant business because of my passion for the creativity of delicious food. Having been a restaurant manager, each day brought new challenges for our team. The same collaboration of all the hands and minds that go into each project excites me to continue learning and progressing in my software develpoment career. I am quietly confident, naturally curious, and perpetually working on improving everyday one problem at a time.
-              <br>
-              Outside of my work in software development, you can find me in the mountains exploring with our two dogs,finding new recipes to cook (Have you baked in high altitude?), or playing this new game called "Pickleball". Super addicting team game that is cross between ping pong and tennis.</p>
-          </div>
-          
-          <div class="item">
-             
-              <img src="Images/pickleball.jpg" alt="people playing pickleball" class="about-img item-doubler">
+              After graduating from college with a Kinesiology degree and a minor in Health, I ventured into the restaurant industry. I wanted to combine my passion for creativity and delicious food. As a restaurant manager, each day brought about unique challenges both as a leader and a team member. That same team collaboration is what excites me as I continue learning and progressing in my software development career. I am quietly confident, naturally curious, and perpetually working on improving everyday one problem at a time.</p>
               
-          </div>
-        </article>
+              <p class="small-text">Outside of my work in software development, you can find me in the mountains exploring with my wife and our two dogs, finding new recipes to cook (have you tried baking at high altitude? It’s a challenge!), or playing Pickleball with friends.</p>
+              
+              <p class="small-text">I am always learning new development tactics to help improve my software development skills and build healthy team dynamics. 
+              <br>
+              I am here to help you achieve your goals by providing the following services: 
+              <ul class="styled-list">
+                <li>Javascript(vanilla, React, etc.)</li>
+                <li>Semantic HTML</li>
+                <li>Responsive CSS</li>
+              </ul>
+              </p>
         </div>
+          <div class="item">
+             <img src="Images/pickleball.jpg" alt="people playing pickleball" class="about-img item-doubler">
+          </div>
+        </div>
+      </article>
+    </div>
       
       
       <div class="wrapper">
+        <article id="projects">
             <h2>Projects</h2>
 			  <div class='group'>
 				  <div class='item'>
@@ -86,14 +97,16 @@
 					  <p>This is a description of the Team Project App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
 				  </div>
 			  </div>
+      </article>
       </div>
 
     <footer>
       <div class="wrapper">
+        <article id="contact">
           <h2>Contact Form</h2>
           <div class="group">
             <div class="item-doubler">
-              <form action="#" method="POST">
+              <form action="https://formspree.io/mwkrygnq" method="POST">
                 <label for="user-name">Name</label>
                 <input id="user-name" type="text" name="name">
 
@@ -112,18 +125,19 @@
 
 
           <div class="group">
-            <div class="item">
-              <a href="mailto:stevcab313@gmail.com"><b>stevcab313@gmail.com</b></a>
-              </br>
-              <a href="https://github.com/stevcab313"><b>GitHub</b></a>
-              </br>
-              <a href="linkedin.com/in/stephen-cabanas-7802191a9"><b>LinkedIn</b></a>
-            </div>
+              <div class="item">
+                <a href="mailto:stevcab313@gmail.com"><b>stevcab313@gmail.com</b></a>
+                <br>
+                <a  href="https://github.com/stevcab313"><b>GitHub</b></a>
+                <br>
+                <a href="https://linkedin.com/in/stephen-cabanas-7802191a9"><b>LinkedIn</b></a>
+              </div>
           </div>  
         </article> 
       </div> 
+    
     </footer>
-    </main>      
+  </main>      
     
         
 
