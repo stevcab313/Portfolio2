@@ -11,7 +11,7 @@ header {
 }
 
 header h1 {
-  color: #EF8354;
+  color: #fff;
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -31,7 +31,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: #EF8354;
+  color: #fff;
   text-decoration: none;
   margin: 0 20px 0 0;
 }
@@ -104,9 +104,9 @@ main .intro {
   margin: 0;
 }
 
-a:link { color: #EF8354 }
-a:visited { color: rgb(238, 151, 113)  ;}
-a:active { color: rgb(233, 87, 24); }
+a:link { color: #000}
+a:visited { color: rgb(197, 191, 189)  ;}
+a:active { color: rgb(92, 87, 84); }
 
 /* ---Desktop View--- */
 
@@ -164,6 +164,10 @@ a {
 }
 
 /* Contact Form Area */
+
+#contact {
+  background-color: #fff;
+}
 
 form input, 
 form textarea {
